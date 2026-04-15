@@ -1,0 +1,114 @@
+# Claude Code
+.claude/
+
+# Virtualenv
+/.venv/
+/venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+/bin/
+/build/
+/develop-eggs/
+/dist/
+/eggs/
+/lib/
+/lib64/
+/output/
+/parts/
+/sdist/
+/var/
+/*.egg-info/
+/.installed.cfg
+/*.egg
+/.eggs
+
+# AUTHORS and ChangeLog will be generated while packaging
+/AUTHORS
+/ChangeLog
+
+# BCloud / BuildSubmitter
+/build_submitter.*
+/logger_client_log
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+.pytest_cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Sphinx documentation
+/docs/_build/
+
+.idea
+
+# Others
+.ipynb_checkpoints/
+.ipynb_checkpoints/*
+**/.ipynb_checkpoints/
+.vscode/
+checkpoints/
+
+
+LLaVA-OneVision-1.5-Instruct-Data/
+LLaVA-OneVision-1.5-4B-Base/
+LLaVA-NeXT-780k-webdataset/.github/workflows/
+
+# Model weights & checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.ot
+*.onnx
+*.pkl
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Model/checkpoint directories (common naming patterns)
+checkpoints/
+checkpoint*/
+*checkpoint*/
+weights/
+pretrained/
+*pretrained*/
+stage_*/
+runs/
+wandb/
+
+# Logs
+logs/
+*.log
+
+# Large data files
+*.tar
+*.tar.gz
+*.zip
+*.gz
+*.jsonl.gz
+
+# Temporary / scratch files
+*.orig
+*.bak
+*.tmp
+changes_log.txt
+CHANGES.txt
+FIXES_*.txt

@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+.installed.cfg
+lib/
+lib64/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ML / Data — large binary files
+datasets/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.pkl
+*.npy
+*.npz
+
+# JSON (except project metadata)
+*.json
+!reconstruction_metadata/*.json
+
+# Checkpoints
+checkpoints/
+
+# Wandb / experiment tracking
+wandb/
+runs/
+outputs/
+lightning_logs/
+
+# Model outputs / checkpoints
+checkpoints/
+*.model
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets / credentials
+*.env
+.env.*
+secrets.json
+credentials.json

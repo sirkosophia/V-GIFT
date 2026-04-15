@@ -1,0 +1,16 @@
+# Energon metadataset: blends the original LLaVA-NeXT-780k stage-2 data
+# with color, rotation, and point-correspondence (multiimage) SSL tasks.
+#
+# Ratio: 100 original samples : 1 color : 1 rotation : 1 point-corr multiimage
+# Energon normalises the weights automatically (sum = 1).
+splits:
+  train:
+    datasets:
+      - path: ${DATASETS_DIR}/LLaVA-NeXT-780k-webdataset
+        weight: 100.0
+      - path: ${DATASETS_DIR}/colorization_webdataset
+        weight: 1.0
+      - path: ${DATASETS_DIR}/rotation_webdataset
+        weight: 1.0
+      - path: ${DATASETS_DIR}/point_correspondence_webdataset
+        weight: 1.0
