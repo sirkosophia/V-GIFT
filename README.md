@@ -120,6 +120,15 @@ LLaVA-OneVision-1.5-4B-3M-Mid-Training-780K-Instruct \
 find LLaVA-OneVision-1.5-4B-stage0/ -type f -not -iname '*safetensors*' -exec cp {}  LLaVA-OneVision-1.5-4B-3M-Mid-Training-780K-Instruct/ ';'
 ```
 
+## Download Weights
+
+Pre-trained V-GIFT model weights are available on Hugging Face:
+
+| Model | Link |
+|---|---|
+| V-GIFT LLaVA 1.5 Vicuna-7B | https://huggingface.co/SophiaSirko/V-GIFT_llava_v1.5_vicuna7b |
+| V-GIFT LLaVA 1.5 Qwen2.5-7B | https://huggingface.co/SophiaSirko/V-GIFT_llava_v1.5_qwen2.5_7B |
+
 ## Citation
 
 ```

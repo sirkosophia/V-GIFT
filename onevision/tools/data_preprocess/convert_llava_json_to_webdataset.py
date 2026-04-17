@@ -91,6 +91,8 @@ def write_webdataset(samples, image_base, output_dir, shard_size=10000):
     skipped = 0
     for sample in samples:
         img_rel = sample.get("image", "")
+        if isinstance(img_rel, list):
+            img_rel = img_rel[0] if img_rel else ""
         img_path = Path(image_base) / img_rel
 
         if not img_path.exists():
