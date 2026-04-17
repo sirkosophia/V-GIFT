@@ -52,7 +52,7 @@ See [Preparing Datasets for V-GIFT](docs/datasets.md) for details on how to down
 
 V-GIFT fine-tuning supports two model families:
 
-### LLaVA (Vicuna-7B / Qwen2.5-7B)
+### LLaVA1.5 (Vicuna-7B / Qwen2.5-7B)
 
 Download model weights into `llava/checkpoints/`:
 
@@ -64,7 +64,8 @@ Download model weights into `llava/checkpoints/`:
 | `qwen_25_instruct` | https://huggingface.co/Qwen/Qwen2.5-7B-Instruct |
 | `llava-v1.5-qwen25-pretrain/mm_projector.bin` | *(pretrain checkpoint)* |
 
-Then run fine-tuning from the repo root:
+
+#### V-GIFT instruction tunning of LLaVA 1.5  
 
 ```bash
 # Vicuna-based
@@ -96,7 +97,7 @@ onevision/checkpoints/LLaVA-OneVision-1.5-4B-Base-mcore \
 ```
 
 
-Run the finetuning:
+#### V-GIFT instruction tunning of LLaVA-OneVision-1.5  
 
 ```bash
 # Launch
@@ -128,6 +129,11 @@ Trained V-GIFT model weights are available on Hugging Face:
 |---|---|
 | V-GIFT LLaVA 1.5 Vicuna-7B | https://huggingface.co/SophiaSirko/V-GIFT_llava_v1.5_vicuna7b |
 | V-GIFT LLaVA 1.5 Qwen2.5-7B | https://huggingface.co/SophiaSirko/V-GIFT_llava_v1.5_qwen2.5_7B |
+
+
+##
+
+Evaluations are done using [VLMEvalKit](https://github.com/open-compass/vlmevalkit)
 
 ## Citation
 
