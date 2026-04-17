@@ -122,7 +122,7 @@ find LLaVA-OneVision-1.5-4B-stage0/ -type f -not -iname '*safetensors*' -exec cp
 
 ## Download Weights
 
-Pre-trained V-GIFT model weights are available on Hugging Face:
+Trained V-GIFT model weights are available on Hugging Face:
 
 | Model | Link |
 |---|---|
