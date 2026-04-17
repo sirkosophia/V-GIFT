@@ -44,6 +44,10 @@ pip install peft==0.4.0
 pip install transformers==4.36.2 --no-deps
 ```
 
+### LLaVA-OneVision-1.5
+
+Refer to official github for LLaVA-OneVision-1.5 environment setup [LLaVA-OneVision-1.5](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-1.5)
+
 ## Datasets 
 See [Preparing Datasets for V-GIFT](docs/datasets.md) for details on how to download and create the datasets.
 
