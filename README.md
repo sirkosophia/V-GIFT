@@ -52,7 +52,7 @@ See [Preparing Datasets for V-GIFT](docs/datasets.md) for details on how to down
 
 V-GIFT fine-tuning supports two model families:
 
-### LLaVA1.5 (Vicuna-7B / Qwen2.5-7B)
+### LLaVA 1.5 (Vicuna-7B / Qwen2.5-7B)
 
 Download model weights into `llava/checkpoints/`:
 
