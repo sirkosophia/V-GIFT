@@ -1,10 +1,9 @@
 <div align="center">
 <h1>
-V-GIFT: Boosting Visual Instruction Tuning with Self-Supervised Guidance
+[NeurIPS 2026]V-GIFT: Boosting Visual Instruction Tuning with Self-Supervised Guidance
 <br>
 </h1>
-<h2>
-NeurIPS 2026
+
 <h2>
 V-GIFT: Visually Grounded Instruction Fine-Tuning
 <br>
@@ -20,7 +19,9 @@ V-GIFT: Visually Grounded Instruction Fine-Tuning
 <a href="https://arxiv.org/abs/2604.12966"><img
 src="https://img.shields.io/badge/arXiv-V--GIFT-b31b1b.svg" height=25em></a>
 <a href="https://huggingface.co/SophiaSirko/V-GIFT_llava_v1.5_vicuna7b"><img
-src="https://img.shields.io/badge/🤗%20Models-V-GIFT-yellow.svg" height="25"></a>
+src="https://img.shields.io/badge/🤗%20Model-Vicuna--7B-yellow.svg" height="25"></a>
+<a href="https://huggingface.co/SophiaSirko/V-GIFT_llava_v1.5_qwen2.5_7B"><img
+src="https://img.shields.io/badge/🤗%20Model-Qwen2.5--7B-yellow.svg" height="25"></a>
 
 ![teaser.png](./assets/teaser.png)
 
