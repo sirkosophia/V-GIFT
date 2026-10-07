@@ -23,6 +23,9 @@ src="https://img.shields.io/badge/🤗%20Model-Vicuna--7B-yellow.svg" height="25
 <a href="https://huggingface.co/SophiaSirko/V-GIFT_llava_v1.5_qwen2.5_7B"><img
 src="https://img.shields.io/badge/🤗%20Model-Qwen2.5--7B-yellow.svg" height="25"></a>
 
+
+<br><br>
+
 ![teaser.png](./assets/teaser.png)
 
 </div>
