@@ -1,6 +1,6 @@
 <div align="center">
 <h1>
-[NeurIPS 2026]V-GIFT: Boosting Visual Instruction Tuning with Self-Supervised Guidance
+[NeurIPS 2026] V-GIFT: Boosting Visual Instruction Tuning with Self-Supervised Guidance
 <br>
 </h1>
 
