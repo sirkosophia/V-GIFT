@@ -17,11 +17,11 @@ V-GIFT: Visually Grounded Instruction Fine-Tuning
 
 <p></p>
 <a href="https://arxiv.org/abs/2604.12966"><img
-src="https://img.shields.io/badge/arXiv-V--GIFT-b31b1b.svg" height=25em></a>
+src="https://img.shields.io/badge/arXiv-V--GIFT-b31b1b.svg" height="25"></a>
 <a href="https://huggingface.co/SophiaSirko/V-GIFT_llava_v1.5_vicuna7b"><img
-src="https://img.shields.io/badge/🤗%20Model-Vicuna--7B-yellow.svg" height="25"></a>
+src="https://img.shields.io/badge/🤗%20Model-V--GIFT__llava__v1.5__vicuna7b-e8e8e8.svg" height="25"></a>
 <a href="https://huggingface.co/SophiaSirko/V-GIFT_llava_v1.5_qwen2.5_7B"><img
-src="https://img.shields.io/badge/🤗%20Model-Qwen2.5--7B-yellow.svg" height="25"></a>
+src="https://img.shields.io/badge/🤗%20Model-V--GIFT__llava__v1.5__qwen2.5__7B-e8e8e8.svg" height="25"></a>
 
 
 <br><br>
